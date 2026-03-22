@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/Logo LuqLabs.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Portofolio Project - LuqLabs</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <div class="blob-animate"></div>
+
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Lucky</a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#about" class="nav__link">About us</a>
+                  </li>
+
+                  <li>
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!-- CUSTOM CURSOR -->
+         <div class="cursor"></div>
+
+
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__shadow"></div>
+            
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__greeting">Hello, I'm</h3>
+                  <h1 class="home__name">Lucky <br> Bagus</h1>
+               </div>
+
+               <div class="home__image">
+                  <div class="blob-animate"></div>
+                  <img src="assets/img/Foto_Diri.png" alt="image" class="home__perfil">
+               </div>
+
+               <div class="home__info">
+                  <h3 class="home__split">Creative</h3>
+                  <h2 class="home__profession-1">Data Analyst</h2>
+                  <h2 class="home__profession-2">& Data Scient</h2>
+               </div>
+
+               <div class="home__social">
+                  <a href="https://www.linkedin.com/in/lucky-bagus-3282bb3b8/" target="_blank" class="home__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+
+                  <a href="https://github.com/luqlabs" target="_blank" class="home__social-link">
+                     <i class="ri-github-fill"></i>
+                  </a>
+
+                  <a href="https://gitlab.com/luqlabs" target="_blank" class="home__social-link">
+                     <i class="ri-gitlab-line"></i>
+                  </a>
+               </div>
+
+               <a href="assets/pdf/Lucky Resume.pdf" download target="_blank" class="home__cv">
+                  RESUME <i class="ri-file-list-2-line"></i>
+               </a>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__shadow"></div>
+
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     <span>Turning Data</span> 
+                     <br> Into Meaningful Insights
+                  </h2>
+
+                  <p class="about__description">
+                     I'm a <b>data analyst</b> who enjoys transforming raw data into 
+                     <b>clear insights and actionable decisions.</b> 
+                     Driven by curiosity and continuous learning, I explore data patterns, 
+                     trends, and tools to solve real-world problems.
+                  </p>
+
+                  <a href="assets/pdf/Lucky Resume.pdf" download target="_blank" class="button">
+                     Resume <i class="ri-file-list-2-line"></i>
+                  </a>
+               </div>
+
+               <div class="about__image">
+                  <div class="blob-animate"></div>
+                  <div class="blob-animate"></div>
+                  <img src="assets/img/foto_kedua.png" alt="image" class="about__perfil">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title">
+               I Make Incredible <br>
+               <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <div class="projects__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                           <div class="projects__number">
+                              <h1>01</h1>
+                              <h3>Dashboard</h3>
+                           </div>
+
+                           <div class="projects__data">
+                              <h1 class="projects__title">Prime Video Data Dashboard</h1>
+                              <p class="projects__subtitle">Content insights & visualization</p>
+                              <p class="projects__description">A data-driven dashboard visualizing Prime Video movies and TV shows by genre, rating, country, and release year. Developed using Excel, SQL, and Power BI to support analytical storytelling and decision-making.</p>
+                           </div>
+
+                           <div class="projects__image">
+                              <img src="assets/img/Project Prime Video.png" alt="image" class="projects__img">
+                              <div class="projects__actions">
+                              <button class="projects__btn-process" onclick="openProcessModal('prime-video')">
+                                 <i class="ri-code-line"></i> View Process
+                              </button>
+                              <a href="https://github.com/luqlabs/Project-Prime-Video-Power-BI-Only-" target="_blank" class="projects__button" title="View Code">
+                                 <i class="ri-arrow-right-up-long-line"></i>
+                              </a>
+                              
+                           </div>
+                     </article>
+
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                           <div class="projects__number">
+                              <h1>02</h1>
+                              <h3>Dashboard</h3>
+                           </div>
+
+                           <div class="projects__data">
+                              <h1 class="projects__title">Pizza Sales Dashboard</h1>
+                              <p class="projects__subtitle">Overview & sales trends</p>
+                              <p class="projects__description">
+                                 A data-driven dashboard visualizing pizza sales performance by category, size, and time period. 
+                                  Developed using Excel, SQL, and Power BI to track key metrics such as total revenue, orders, and top-selling pizzas. 
+                                  The dashboard provides actionable insights for business decision-making and sales optimization
+                              </p>
+                           </div>
+
+                           <div class="projects__image">
+                              <img src="assets/img/Projek pizza sales 1.png" alt="image" class="projects__img">
+                              <div class="projects__actions">
+                              <button class="projects__btn-process" onclick="openProcessModal('pizza-sales')">
+                                 <i class="ri-code-line"></i> View Process
+                              </button>
+                              <a href="https://github.com/luqlabs/Project-Prime-Video-Power-BI-Only-" target="_blank" class="projects__button" title="View Code">
+                                 <i class="ri-arrow-right-up-long-line"></i>
+                              </a>
+                           </div>
+                     </article>
+
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                           <div class="projects__number">
+                              <h1>02</h1>
+                              <h3>Dashboard</h3>
+                           </div>
+
+                           <div class="projects__data">
+                              <h1 class="projects__title">Pizza Sales Dashboard</h1>
+                              <p class="projects__subtitle">Product & category analysis</p>
+                              <p class="projects__description">
+                                 A data-driven dashboard visualizing pizza sales performance by category, size, and time period. 
+                                  Developed using Excel, SQL, and Power BI to track key metrics such as total revenue, orders, and top-selling pizzas. 
+                                  The dashboard provides actionable insights for business decision-making and sales optimization
+                              </p>
+                           </div>
+
+                           <div class="projects__image">
+                              <img src="assets/img/Projek pizza sales 2.png" alt="image" class="projects__img">
+                              <div class="projects__actions">
+                              <button class="projects__btn-process" onclick="openProcessModal('pizza-sales')">
+                                 <i class="ri-code-line"></i> View Process
+                              </button>
+                              <a href="https://github.com/luqlabs/Project-Prime-Video-Power-BI-Only-" target="_blank" class="projects__button" title="View Code">
+                                 <i class="ri-arrow-right-up-long-line"></i>
+                              </a>
+                           </div>
+                     </article>
+
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                           <div class="projects__number">
+                              <h1>03</h1>
+                              <h3>Dashboard</h3>
+                           </div>
+
+                           <div class="projects__data">
+                              <h1 class="projects__title">Stock Market Analysis Dashboard</h1>
+                              <p class="projects__subtitle">Price trends, volatility & trading volume insights</p>
+                              <p class="projects__description">
+                                 An interactive dashboard designed to analyze stock price behavior and trading volume over time.
+                                  This project visualizes percentage price changes, moving averages, and comparative company performance to help identify market trends and potential investment signals.
+                              </p>
+                           </div>
+
+                           <div class="projects__image">
+                              <img src="assets/img/Projek stock market.png" alt="image" class="projects__img">
+                              <div class="projects__actions">
+                              <button class="projects__btn-process" onclick="openProcessModal('stock-market')">
+                                 <i class="ri-code-line"></i> View Process
+                              </button>
+                              <a href="https://github.com/luqlabs/Project-Prime-Video-Power-BI-Only-" target="_blank" class="projects__button" title="View Code">
+                                 <i class="ri-arrow-right-up-long-line"></i>
+                              </a>
+                           </div>
+                           </div>
+                     </article>
+
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                           <div class="projects__number">
+                              <h1>04</h1>
+                              <h3>Dashboard</h3>
+                           </div>
+
+                           <div class="projects__data">
+                              <h1 class="projects__title">Samsung Supply Chain & Logistics Dashboard</h1>
+                              <p class="projects__subtitle">Supply chain visibility & operational intelligence</p>
+                              <p class="projects__description">Interactive dashboard monitoring Samsung's supply chain performance across suppliers, inventory, and logistics. 
+                                 Tracks key metrics on supplier quality, delivery performance, and inventory turnover to support operational decision-making and efficiency optimization.</p>
+                           </div>
+
+                           <div class="projects__image">
+                              <img src="assets/img/Lead Time Project.png" alt="image" class="projects__img">
+                              <div class="projects__actions">
+                              <button class="projects__btn-process" onclick="openProcessModal('samsung')">
+                                 <i class="ri-code-line"></i> View Process
+                              </button>
+                              <a href="https://github.com/luqlabs/Project-Prime-Video-Power-BI-Only-" target="_blank" class="projects__button" title="View Code">
+                                 <i class="ri-arrow-right-up-long-line"></i>
+                              </a>
+                           </div>
+                           </div>
+                     </article>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+        <section class="services section">
+   <h2 class="section__title">What I <span>Offer</span></h2>
+
+   <div class="services__container container grid">
+
+      <!-- ========== DATA ANALYSIS CARD ========== -->
+      <div class="services__card services-open">
+         <div class="blob"></div>
+
+         <div class="services__data">
+            <h2 class="services__title">Data Analysis</h2>
+            <p class="services__description">
+               Analyzing and transforming data into 
+               <b>actionable insights</b> using analytical 
+               and visualization tools to support 
+               data-driven decision making.
+            </p>
+         </div>
+
+         <div class="services__info">
+            <h3 class="services__subtitle">Skills & Tools</h3>
+
+            <ul class="services__skills">
+               <li class="services__skill">Excel (Advanced)</li>
+               <li class="services__skill">SQL (PostgreSQL)</li>
+               <li class="services__skill">Python (Pandas, NumPy)</li>
+               <li class="services__skill">ETL & Data Cleaning</li>
+               <li class="services__skill">Joins & CTEs</li>
+               <li class="services__skill">Window Functions</li>
+               <li class="services__skill">Time Series Analysis</li>
+               <li class="services__skill">AI-Assisted Analysis</li>
+            </ul>
+         </div>
+
+         <button class="services__button">
+            <i class="ri-arrow-down-s-line"></i>
+         </button>
+      </div>
+
+      <!-- ========== DATA VISUALIZATION CARD ========== -->
+      <div class="services__card services-close">
+         <div class="blob blob-2"></div>
+
+         <div class="services__data">
+            <h2 class="services__title">Data Visualization</h2>
+            <p class="services__description">
+               Creating interactive dashboards and reports 
+               that communicate <b>patterns, trends, and insights</b> 
+               clearly for stakeholders and decision-makers.
+            </p>
+         </div>
+
+         <div class="services__info">
+            <h3 class="services__subtitle">Skills & Tools</h3>
+
+            <ul class="services__skills">
+               <li class="services__skill">Power BI (DAX)</li>
+               <li class="services__skill">Tableau</li>
+               <li class="services__skill">Excel Dashboards</li>
+               <li class="services__skill">Data Modeling</li>
+               <li class="services__skill">Data Storytelling</li>
+               <li class="services__skill">Dashboard Design</li>
+            </ul>
+         </div>
+
+         <button class="services__button">
+            <i class="ri-arrow-down-s-line"></i>
+         </button>
+      </div>
+   </div>
+</section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+               <div class="contact__data">
+                  <h2 class="section__title">Contact Me</h2>
+
+                  <p class="contact__description">Tell me about your next project.</p>
+
+                  <button class="contact__button button" id="contact-btn">
+                     Copy email <i class="ri-file-copy-line"></i>
+                     <span class="contact__email" id="contact-email">luqlabs717@gmail.com</span>
+                  </button>
+               </div>
+
+               <div class="contact__content grid">
+                  <div class="contact__info grid">
+                     <div>
+                        <h3 class="contact__title">Email</h3>
+                        <address class="contact__address">luqlabs717@gmail.com</address>
+                     </div>
+
+                     <div>
+                        <h3 class="contact__title">Location</h3>
+                        <address class="contact__address">Sidoarjo, Indonesia</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__social">
+                     <h3 class="contact__title">Social Media</h3>
+
+                     <div class="contact__links">
+                        <a href="https://www.linkedin.com/in/lucky-bagus-3282bb3b8/" target="_blank" class="contact__link">
+                           Linkedin
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="https://github.com/luqlabs" target="_blank" class="contact__link">
+                           GitHub
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="https://gitlab.com/luqlabs" target="_blank" class="contact__link">
+                           GitLab
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div class="contact__write">
+                     <h3 class="contact__title">Write Me & We'll Talk</h3>
+
+                     <div class="contact__links">
+                        <a href="https://wa.me/qr/TY34URARPWVAB1" target="_blank" class="contact__link">
+                           WhatsApp
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="https://m.me/LuqLabs" target="_blank" class="contact__link">
+                           Messenger
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="t.me/LuqLabs" target="_blank" class="contact__link">
+                           Telegram
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/luckybagus_?utm_source=qr&igsh=MTFjZjc5aHE0aXNqYw==" target="_blank" class="contact__link">
+                           Instagram
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer grid">
+         <div class="blob-animate"></div>
+
+         <div class="footer__copy">
+            All Rights Reserved By <span>LuqLabs</span>
+         </div>
+
+         <div class="gooter__year">
+            &#169; <span id="footer-year"></span>
+         </div>
+      </footer>
+      
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== ANIME JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!-- ===== PROCESS MODAL===== -->
+      <div id="processModal" class="modal">
+         <div class="modal__content">
+            <span class="modal__close" onclick="closeProcessModal()">&times;</span>
+            <div id="modalBody">
+            <!-- Konten akan di-load dinamis via JavaScript -->
+            </div>
+         </div>
+      </div>
+<!-- ===== END PROCESS MODAL ===== -->
+   </body>
+</html>
